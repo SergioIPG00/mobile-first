@@ -1,7 +1,10 @@
+import './navbar.css';
+
 function NavBar(){
     return(
         <div className="NavBar">
-            <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            <nav class="navbar navbar-expand-lg navbar-light bg-info">            
+                <i class="bi bi-person-circle"></i>                    
                 <a class="navbar-brand" href="#">Navbar</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -27,7 +30,7 @@ function NavBar(){
                         <a class="dropdown-item" href="#">Subscribe to the blog</a>
                         <a class="dropdown-item" href="#">Sign up for our newsletter</a>
                         </div>
-                    </li>
+                    </li>                    
                     </ul>
                 </div>
                 </nav>

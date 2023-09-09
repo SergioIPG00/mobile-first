@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import NavBar from './components/navbar';
 import Posts from './components/Posts';
 import SearchBar from './components/searchBar';
+import 'bootstrap-icons/font/bootstrap-icons.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
