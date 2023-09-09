@@ -6,7 +6,6 @@ function SearchBar(){
             <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search" aria-label="Search"/>
         </form>
         </div>
-
     );
 }
 
